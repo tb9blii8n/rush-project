@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+h1 {text-align: center;font-size: 120px;}
+h2 {text-align: center;font-size: 50px;}
+h3 {text-align: center;font-size: 42px;}
+p {text-align: center;font-size: 32px;}
+a {text-align: center;font-size: 32px;}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-item {
+    flex: 1;
+    min-width: 100px;
+    text-align: center;
+}
+
+.nav-item a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    background-color: #575757;
+}
+
+.section {
+    padding: 80px 20px;
+    margin-top: 50px;
+}
+
+.section h1 {
+    margin-top: 0;
+}
+
+@media (min-width: 768px) {
+    .nav-item {
+        min-width: 120px;
+    }
+
+    .section {
+        padding: 80px 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav-item {
+        min-width: 150px;
+    }
+
+    .section {
+        padding: 80px 60px;
+    }
+}
+
+</style>
+<body style="background-color:rgb(205, 242, 247);">
+<center>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="../main.html">Home</a></li>
+            <li class="nav-item"><a href="#info">Info</a></li>
+            <li class="nav-item"><a href="#present">Present</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>      
+        </ul>
+    </nav>
+
+    <h1 style="background-color: #e06a34; width: 800px;">Jmonpan</h1>
+    <img src="https://scontent.fbkk6-1.fna.fbcdn.net/v/t39.30808-6/348301313_3470924879902381_5564022881085626287_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=bJGnWcJBtLEQ7kNvgGAVkst&_nc_ht=scontent.fbkk6-1.fna&oh=00_AYDcnNIJUWx5yTL6E7ZXDIFtwWg57dyD7mCwR06k1xpDuw&oe=664B64F5" style="width: 800px;">
+
+    <div id="info" class="section">
+        <h2 style="background-color: #eea84d; width: 800px;">Info</h2>
+        <h3>Jiraporn Monpan</h3>
+        <p>age :20 | Dete of birth :12\09\2003 | nickname :Meaw | color :Arctic | Animal :cat |</p>
+        <a href="https://youtu.be/d7y1NwqvoXQ?si=24KA_FNS3EdDHVku">
+        I need somebody who can love me at my worst<br>
+        No, I'm not perfect, but I hope you see my worth<br>
+        'Cause it's only you, nobody new, I put you first<br>
+        And for you, girl, I swear I'll do the worst
+       </a>
+    </div>
+
+    <div id="present" class="section">
+        <h2 style="background-color: #eea84d; width: 800px;">Present</h2> 
+        <iframe width="840" height="630"
+            src="https://www.youtube.com/embed/YDLFLgxe9kA?autoplay=1">
+    </iframe>
+    </div>
+
+    <div id="contact" class="section">
+        <h2 style="background-color: #eea84d; width: 800px;">Contact</h2>
+        <a href="https://www.facebook.com/profile.php?id=100002892229259&mibextid=ZbWKwL"><img src ="facebook-color-icon-2048x2048-bfly1vxr.png" style="width: 100px; height: 100 ;" alt="profile facebook"></a>
+        <a href="https://www.instagram.com/0._lmlb_.0?igsh=MWx0OWRoOWl2bTJmZw=="><img src ="Instagram_icon.png" style="width: 100px; height: 1000 ;" alt="profile Instagram"></a>
+        <a href="https://www.google.com/search?client=firefox-b-d&q=gmail"><img src ="14026755.png" style="width: 100px; height: 100 ;" alt="profile Email"></a>
+        <p>Email : jirapornmeaw1209@gamil.com</p>
+        <a href="https://discord.gg/mNQyqqTDFZ"><img src ="discord-icon-2048x2048-o5mluhz2.png" style="width: 100px; height: 100 ;" alt="Discord Server"></a>
+        <p>Discord | NAME : •>~LMLB~<• | Uesername : 0_meaw_0 </p>
+        <a href="https://github.com/42Bangkok-DPs/kmitl-fwc-web-may2024-JirapornMonpan"><img src ="github.png" style="width: 100px; height: 1000 ;" alt="github"></a>
+    </div>
+</center>
+</body>
+</html>

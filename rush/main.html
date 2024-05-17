@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.cdnfonts.com/css/public-pixel" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HAIYAA's team</title>
+<style>
+  /* Basic styles */
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Pixel', sans-serif;
+  }
+  .parallax {
+    /* Parallax background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    overflow: hidden; /* Ensure video does not overflow */
+  }
+  .parallax video {
+    /* Video styles */
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .yellow-section {
+    /* Red background section */
+    background-color: rgb(255, 206, 71);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box {
+    /* Box style */
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .box img {
+    /* Image style */
+    width: 300px; /* Adjust size as needed */
+    height: 300px; /* Adjust size as needed */
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+  /* Hover effect */
+  .box:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  }
+</style>
+</head>
+<body>
+
+<!-- Parallax Section with Video Background -->
+<section class="parallax">
+  <video autoplay loop muted>
+    <source src="stardew-valley-bus-moewalls-com.mp4" type="video/mp4"> <!-- Replace 'background_video.mp4' with your video file -->
+    Your browser does not support the video tag.
+  </video>
+  <div>
+    <h1 style="font-size: 6rem;">RUSH PROJECT</h1>
+    <p></p>
+  </div>
+</section>
+
+<!-- Red Background Section -->
+<section class="yellow-section">
+  <a href="thititus/thititus.html">
+    <div class="box">
+        <img src="thititus/profile.jpg" alt="Image 1"> <!-- Replace 'image1.jpg' with your image file -->
+        <p style=" text-decoration: none; color: black;">thititus</p>
+    </div>
+  </a>
+  <a href="jmonpan/Jmonpan.html">
+    <div class="box">
+        <img src="https://scontent.fbkk6-1.fna.fbcdn.net/v/t39.30808-6/348301313_3470924879902381_5564022881085626287_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=bJGnWcJBtLEQ7kNvgGAVkst&_nc_ht=scontent.fbkk6-1.fna&oh=00_AYDcnNIJUWx5yTL6E7ZXDIFtwWg57dyD7mCwR06k1xpDuw&oe=664B64F5" alt="Image 2"> <!-- Replace 'image2.jpg' with your image file -->
+        <p style=" text-decoration: none; color: black;">jmonpan</p>
+    </div>
+  </a>
+  
+</section>
+
+</body>
+</html>
